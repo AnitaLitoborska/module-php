@@ -6,6 +6,7 @@ class Myfinance extends Module
         $this->name = 'myfinance';
         $this->author = 'Anita';
         $this->version = '0.0.1';
+        $this->bootstrap = true;
         parent::__construct();
         $this-> displayName = $this->1('Multipurpose');
         $this->description = $this->1('This is my module finance')
@@ -33,4 +34,5 @@ class Myfinance extends Module
             $this->_path.'views/js/myfinance.js'
         ));
     }
+    public function getContent()
 }
