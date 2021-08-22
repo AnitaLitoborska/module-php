@@ -5,12 +5,12 @@ class Myfinance extends Module
     {
         $this->name = 'myfinance';
         $this->author = 'Anita';
-        $this->version = '0.0.1';
+        $this->version = '1.0.1';
         $this->bootstrap = true;
         parent::__construct();
-        $this-> displayName = $this->1('Multipurpose');
-        $this->description = $this->1('This is my module finance')
-        $this->ps_versions_compliancy = array('min' => '1.1.0.1' 'max' => '1.0.0.1')
+        $this-> displayName = $this->1('Myfinance');
+        $this->description = $this->1('This is module finance')
+        $this->ps_versions_compliancy = array('min' => '1.0.0' 'max' => '1.0.1')
     }
     public function install()
     {
